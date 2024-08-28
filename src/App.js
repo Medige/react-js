@@ -74,10 +74,10 @@ function App() {
       songAvatar: './Assets/Images/image3.jpg'
     },
     {
-      songName: 'Baby doll [ slowed + reverb ]',
-      songArtist: 'Kanika Kapoor',
-      songSrc: './Assets/songs/Baby doll [ slowed + reverb ] __ meet bros ,Kanika Kapoor __ jr santu.mp3',
-      songAvatar: './Assets/Images/image5.jpg'
+      songName: 'Rise',
+      songArtist: 'Johny Grimes',
+      songSrc: './Assets/songs/Raise.mp3',
+      songAvatar: './Assets/Images/johny-grimes-rise.webp'
     },
     {
       songName: 'Soch (Slowed+Reverbed)',
@@ -184,10 +184,7 @@ function App() {
       <div className="changeBackBtn" onClick={handleChangeBackground}>
         Change Background
       </div>
-      <a href="https://www.youtube.com/@teenage-programmer" title='Subscribe' className='youtube-Subs'>
-        <img src="./Assets/Images/Youtube_logo.png" alt="Youtube Logo"/>
-        <p>Teenage Programmer</p>
-      </a>
+     
     </div>
     </>
   );
